@@ -6,6 +6,7 @@ const menu = {
     openedIndex: -1,
     open() {
         document.querySelector("body").style.overflow = "hidden";
+        document.querySelectorAll(".mobile-menu__wrapper a").forEach((el) => (el.tabIndex = 0));
         document.querySelectorAll("main a, main button").forEach((el) => (el.tabIndex = -1));
         document.querySelectorAll("header a, header button").forEach((el) => (el.tabIndex = -1));
         document.querySelectorAll("footer a, footer button").forEach((el) => (el.tabIndex = -1));
@@ -19,13 +20,15 @@ const menu = {
     },
     close() {
         document.querySelector("body").style.overflow = "";
-        document.querySelectorAll("main a, main button").forEach((el) => (el.tabIndex = null));
-        document.querySelectorAll("header a, header button").forEach((el) => (el.tabIndex = null));
-        document.querySelectorAll("footer a, footer button").forEach((el) => (el.tabIndex = null));
+        document.querySelectorAll(".mobile-menu__wrapper a").forEach((el) => (el.tabIndex = -1));
+        document.querySelectorAll("main a, main button").forEach((el) => (el.tabIndex = 0));
+        document.querySelectorAll("header a, header button").forEach((el) => (el.tabIndex = 0));
+        document.querySelectorAll("footer a, footer button").forEach((el) => (el.tabIndex = 0));
 
         setTimeout(() => {
             this.menuWrapper.scrollTop = 0;
         }, 300);
+
         this.menuWrapper.classList.remove("shown");
         this.toggleButton.classList.remove("close");
 
