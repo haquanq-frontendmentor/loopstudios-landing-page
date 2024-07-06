@@ -2,8 +2,6 @@
 
 This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![](./.docs/design/desktop-preview.jpg)
-
 ### The challenge
 
 - No access to design files, attempt pixel-perfect 😑
@@ -18,9 +16,9 @@ Users should be able to:
 - Built with: `HTML` `CSS` `JS`
 - Mobile-first workflow
 
-![](./.docs/design/desktop-design.jpg)
+:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-and-js---accessible-mobile-menu-using-tab-esc-oWreKYQQ1S) :link: [`Live Site Link`](https://haquanq.github.io/fm-loopstudios-landing-page/)
 
-:link: [`Solution Link`]() :link: [`Live Site Link`]()
+![](./.docs/design/desktop-design.jpg)
 
 ## Working in `fm-loopstudios-landing-page` repository
 
