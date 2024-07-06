@@ -1,0 +1,12 @@
+{
+  "name": "fm-loopstudios-landing-page",
+  "description": "Solution for frontendmentor.io challenge: loopstudios-landing-page",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "browser-sync start -s app -f app --no-ui"
+  },
+  "author": "haquanq",
+  "license": "MIT"
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <picture class="header__image">
+        <source srcset="./assets/images/desktop/image-hero.jpg" media="(min-width: 38em)" />
+        <img src="./assets/images/mobile/image-hero.jpg" alt="" />
+      </picture>
+      <div class="header__layout">
+        <nav class="nav__wrapper">
+          <img class="nav__logo" src="./assets/images/logo.svg" alt="Loopstudios logo" />
+          <button class="nav__menu-btn">
+            <span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </button>
+          <ul class="nav__link__list">
+            <li class="nav__link__item"><a href="/">About</a></li>
+            <li class="nav__link__item"><a href="/">Careers</a></li>
+            <li class="nav__link__item"><a href="/">Events</a></li>
+            <li class="nav__link__item"><a href="/">Products</a></li>
+            <li class="nav__link__item"><a href="/">Support</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__headline">Immersive experiences that deliver</h1>
+      </div>
+    </header>
+    <main class="main__container">
+      <div class="main__layout">
+        <article class="about-us__wrapper">
+          <picture class="about-us__picture">
+            <source
+              srcset="./assets/images/desktop/image-interactive.jpg"
+              media="(min-width: 48em)"
+            />
+            <img
+              src="./assets/images/mobile/image-interactive.jpg"
+              alt="An image of white male wearing blue shirt using VR headset laughing excitedly with both arm trying to grab something"
+            />
+          </picture>
+          <div class="about-us__content">
+            <h2 class="about-us__title">The leader in interactive VR</h2>
+            <p class="about-us__description">
+              Founded in 2011, Loopstudios has been producing world-class virtual reality projects
+              for some of the best companies around the globe. Our award-winning creations have
+              transformed businesses through digital experiences that bind to their brand.
+            </p>
+          </div>
+        </article>
+        <section class="our-creations__wrapper">
+          <div class="our-creations__headline">
+            <h2>Our creations</h2>
+            <button class="btn--type-primary">See all</button>
+          </div>
+          <ul class="our-creations__list">
+            <li class="our-creations__item">
+              <a tabindex="0" class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-deep-earth.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-deep-earth.jpg"
+                    alt="An image of how earth looks like from space at from close distance like from the moon"
+                  />
+                </picture>
+                <span class="our-creations__label">Deep earth</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-night-arcade.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-night-arcade.jpg"
+                    alt="An close up image of an arcade machine under dark blue & pink neon light"
+                  />
+                </picture>
+                <span class="our-creations__label">Night arcade</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-soccer-team.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-soccer-team.jpg"
+                    alt="An image of a white male footballer wearing a red shirt of number 9 with white short, white sneakers running and driving soccer ball at the same time"
+                  />
+                </picture>
+                <span class="our-creations__label">Soccer team VR</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-grid.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-grid.jpg"
+                    alt="An close up image of sport car it's rear showing rear left tire and front rear tire"
+                  />
+                </picture>
+                <span class="our-creations__label">The grid</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-from-above.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-from-above.jpg"
+                    alt="An image from above of zigzag road on rugged mountainside"
+                  />
+                </picture>
+                <span class="our-creations__label">From up above VR</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-pocket-borealis.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-pocket-borealis.jpg"
+                    alt="The Aurora Borealis, also known as the Northern Lights, can appear in a clear night sky as swirling rivers of greenish-blue light"
+                  />
+                </picture>
+                <span class="our-creations__label">Pocket borealis</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-curiosity.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-curiosity.jpg"
+                    alt="A rover (space exploration rover) is looking curiosity while on mission"
+                  />
+                </picture>
+                <span class="our-creations__label">The curiosity</span>
+              </a>
+            </li>
+            <li class="our-creations__item">
+              <a class="our-creations__link" href="/">
+                <picture class="our-creations__image">
+                  <source
+                    srcset="./assets/images/desktop/image-fisheye.jpg"
+                    media="(min-width: 64em)"
+                  />
+                  <img
+                    src="./assets/images/mobile/image-fisheye.jpg"
+                    alt="A fisheye view of the road with beautiful clear sky"
+                  />
+                </picture>
+                <span class="our-creations__label">Make it fisheye</span>
+              </a>
+            </li>
+          </ul>
+          <button class="our-creations__see-all-btn--bottom btn--type-primary">See all</button>
+        </section>
+      </div>
+    </main>
+    <footer class="footer__container">
+      <div class="footer__layout">
+        <img class="footer__logo" src="./assets/images/logo.svg" alt="Loopstudios logo" />
+        <ul class="footer__link__list">
+          <li class="footer__link__item"><a href="/">About</a></li>
+          <li class="footer__link__item"><a href="/">Careers</a></li>
+          <li class="footer__link__item"><a href="/">Events</a></li>
+          <li class="footer__link__item"><a href="/">Products</a></li>
+          <li class="footer__link__item"><a href="/">Support</a></li>
+        </ul>
+        <ul class="footer__social__list">
+          <li class="footer__social__item">
+            <a href="/"><img src="./assets/images/icon-facebook.svg" alt="Facebook icon" /></a>
+          </li>
+          <li class="footer__social__item">
+            <a href="/"><img src="./assets/images/icon-twitter.svg" alt="Twitter icon" /></a>
+          </li>
+          <li class="footer__social__item">
+            <a href="/"><img src="./assets/images/icon-pinterest.svg" alt="Pinterest icon" /></a>
+          </li>
+          <li class="footer__social__item">
+            <a href="/"><img src="./assets/images/icon-instagram.svg" alt="Instagram icon" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">&copy; 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </footer>
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu__pad-y">
+        <img class="mobile-menu__logo" src="./assets/images/logo.svg" alt="Loopstudios logo" />
+      </div>
+      <ul class="mobile-menu__link__list">
+        <li class="mobile-menu__link__item"><a href="/">About</a></li>
+        <li class="mobile-menu__link__item"><a href="/">Careers</a></li>
+        <li class="mobile-menu__link__item"><a href="/">Events</a></li>
+        <li class="mobile-menu__link__item"><a href="/">Products</a></li>
+        <li class="mobile-menu__link__item"><a href="/">Support</a></li>
+      </ul>
+      <div class="mobile-menu__pad-y"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
