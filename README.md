@@ -4,7 +4,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ### The challenge
 
-- No access to design files, attempt pixel-perfect 😑
+- No access to design files, attempt pixel-perfect
 
 Users should be able to:
 
