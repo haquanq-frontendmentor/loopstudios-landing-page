@@ -7,7 +7,7 @@
 
     a,
     button {
-        --focus-color: var(--color-white) !important;
+        --focus-color: var(--color-white);
     }
 
     &__logo {
