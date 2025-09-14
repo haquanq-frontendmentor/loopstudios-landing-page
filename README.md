@@ -1,49 +1,89 @@
-## Frontend Mentor - Loopstudios landing page solution
+## Frontend Mentor - Loopstudios Landing Page Solution
 
 This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### The challenge
+<p>
+  <a href="https://www.frontendmentor.io/solutions/only-html-and-css-and-js---accessible-mobile-menu-using-tab-esc-oWreKYQQ1S">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/loopstudios-landing-page/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
 
-- No access to design files, attempt pixel-perfect
+## Table of Contents
 
-Users should be able to:
+- [Project Overview](#sunrise-project-overview)
+- [Tech Stack and Approach](#stars-tech-stack-and-approach)
+- [Local Development](#leaves-local-development)
+- [Deployment](#maple_leaf-deployment)
+
+## :sunrise: Project Overview
+
+### Challenge Requirements
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Solution
+### Status
 
-- Built with: `HTML` `CSS` `JS`
-- Mobile-first workflow
+Accessibility
 
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-and-js---accessible-mobile-menu-using-tab-esc-oWreKYQQ1S) :link: [`Live Site Link`](https://haquanq.github.io/fm-loopstudios-landing-page/)
+- [x] Responsive accross different screen sizes
+- [x] Interactive elements have clear focus indicator
 
-![](./.docs/design/desktop-design.jpg)
+### Preview (Desktop)
 
-## Working in `fm-loopstudios-landing-page` repository
+![](./docs/design/desktop-design.jpg)
 
-### Packages being used
+## :stars: Tech Stack and Approach
 
-- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
+### Built With
 
-### Clone this project to your machine
+- **HTML5** – Semantic structure
+- **CSS Grid & Flexbox** – Layout
+- **PostCSS** – Nested rules, custom media queries, future CSS features, minification
+- **Stylelint** – CSS linting, code style consistency
+- **JavaScript** - Interactivity and application logic
+- **Vite** - Fast development server, production build and easy configuration
 
-Make sure you have Git installed in your system, open new terminal, run the following command:
+### Approach
+
+- Mobile-first workflow for better performance on smaller devices
+- Accessibility guided by [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+
+## :leaves: Local Development
+
+### Prerequisites
+
+Install the following:
+
+- Git (latest LTS recommended)
+- Node.js (latest LTS recommended)
+
+### Setup
 
 ```
-git clone https://github.com/haquanq/fm-loopstudios-landing-page.git
-```
-
-Then, run `npm install` to install all dependencies.
-
-```
+git clone https://github.com/haquanq-frontendmentor/loopstudios-landing-page.git
+cd loopstudios-landing-page
 npm install
 ```
 
-### Development workflow
-
-In terminal, run `npm run dev` to start development server:
+### Start Development Server
 
 ```
 npm run dev
 ```
+
+## :maple_leaf: Deployment
+
+Deployed to Github Pages via Github Actions (manually triggered).

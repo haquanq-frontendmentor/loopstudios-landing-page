@@ -1,0 +1,33 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-black: hsl(0, 0%, 0%);
+    --color-gray-300: hsl(0, 0%, 55%);
+    --color-gray-500: hsl(0, 0%, 41%);
+
+    --font-primary: "Alata", sans-serif;
+    --font-secondary: "Josefin Sans", sans-serif;
+
+    --font-normal: 400;
+    --font-light: 300;
+
+    --text-md: 0.9375rem;
+    --text-xl: 1.5rem; /* 24 - 32 */
+    --text-2xl: 2rem; /* 32 - 48 */
+    --text-3xl: 2.5rem; /* 40 - 72 */
+    --text-4xl: 3rem;
+    --text-5xl: 4.5rem;
+
+    --leading-none: 1;
+    --leading-paragraph: 1.65;
+
+    --tracking-btn-primary: 0.3em;
+    --tracking-body: 0.015em;
+
+    --focus-offset: 5px;
+    --focus-width: 3px;
+    --focus-style: dashed;
+    --focus-color: var(--color-black);
+}
+
+@custom-media --tablet (min-width: 48em);
+@custom-media --laptop (min-width: 64em);

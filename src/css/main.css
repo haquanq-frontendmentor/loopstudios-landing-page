@@ -1,0 +1,24 @@
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
+
+@import "./components/button.css";
+@import "./components/nav.css";
+@import "./components/footer.css";
+@import "./components/header.css";
+@import "./components/about-us.css";
+@import "./components/our-creations.css";
+@import "./components/mobile-menu.css";
+
+@import "./layouts/container.css";
+
+@import "./utils/a11y.css";
+
+.main {
+    background-color: var(--color-white);
+    padding-block: 6rem;
+
+    @media (--laptop) {
+        padding-block: 10rem 11.5rem;
+    }
+}

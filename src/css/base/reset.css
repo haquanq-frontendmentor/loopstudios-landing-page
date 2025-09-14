@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--text-md);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-none);
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--font-light);
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+}
+
+p {
+    overflow-wrap: break-word;
+    line-height: var(--leading-paragraph);
+    color: var(--color-gray-300);
+    letter-spacing: var(--tracking-body);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@supports selector(:focus-visible) {
+    a:focus,
+    button:focus {
+        outline: none;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+        outline: var(--focus-width) var(--focus-style) var(--focus-color);
+        outline-offset: var(--focus-offset);
+    }
+}
