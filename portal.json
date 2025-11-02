@@ -1,0 +1,15 @@
+{
+  "name": "Loopstudios Landing Page",
+  "featured": false,
+  "colors:": {
+    "brand": "#222222"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/loopstudios-landing-page/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "junior",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/only-html-and-css-and-js---accessible-mobile-menu-using-tab-esc-oWreKYQQ1S"
+  }
+}
